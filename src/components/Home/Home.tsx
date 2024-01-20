@@ -22,17 +22,10 @@ const Home = () => {
           padding: 2,
           maxWidth: 500,
           backgroundColor: "transparent",
+          boxShadow: "none",
         }}
       >
-        Welcome to Tables App
-        <Typography
-          sx={{
-            fontSize: 40,
-            fontWeight: 600,
-            color: "colors.grey",
-          }}
-        ></Typography>
-        Choose your table
+        Welcome to Tables App Choose your table
       </Typography>
       <NavLink to="/accounts">
         <Button
